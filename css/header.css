@@ -2,7 +2,8 @@
     height: 156px; 
 
 }
-.header > .row {
+.header > .container,
+.header > .container > .row {
     height: 100%;
 }
 

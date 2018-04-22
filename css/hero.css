@@ -1,0 +1,25 @@
+.hero {
+    height: 520px;
+    background-color: #ffe1bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    position: relative;
+
+}
+
+.hero__title::after {
+    content:  "";
+    position: absolute;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -10px;
+    width: 55px;
+    background-color: #000000;
+
+}
