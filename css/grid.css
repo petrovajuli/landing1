@@ -5,6 +5,7 @@
     margin: 0 auto;
 }
 
+/*компенсировали padding контейнера*/
 .row {
     margin: 0 -15px;
     display: flex;
