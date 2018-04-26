@@ -9,7 +9,7 @@
 
 .hero__title {
     position: relative;
-
+    font-size: 48px;
 }
 
 .hero__title::after {
@@ -18,8 +18,34 @@
     height: 2px;
     left: 50%;
     transform: translate(-50%);
-    bottom: -10px;
+    bottom: -29px;
     width: 55px;
     background-color: #000000;
+}
 
+.hero__text {
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hero__button {
+    display: block;
+    margin-top:56px;
+    height: 50px;
+    width: 170px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    line-height:45px;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero__button:hover {
+    background-color: #212121;
+    box-shadow: 3px 3px 15px 0px grey;
 }
