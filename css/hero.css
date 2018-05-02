@@ -3,13 +3,16 @@
     background-color: #ffe1bd;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .hero__title {
     position: relative;
+    margin-top: 139px;
+    margin-bottom: 56px; 
     font-size: 48px;
+    line-height: 37px;
 }
 
 .hero__title::after {
@@ -27,7 +30,9 @@
     text-align: center;
     font-size: 24px;
     font-weight: 300;
+    margin-top: 0;
     margin-bottom:56px;
+    line-height: 1.33;
 }
 
 .hero__button {
@@ -41,16 +46,16 @@
     font-weight: 300;
     text-decoration: none;
     color: #ffffff;
+    transition: all 0.2s;
 }
 
 .hero__button:hover{
     background-color: #212121;
-   /* box-shadow: 3px 3px 15px 0px grey;*/
-   animation: animated_shadow 2s;
-   animation-fill-mode:forwards;
+    box-shadow: 3px 3px 15px 0px grey;
+    transition: all 0.2s ease-out;
 }
 
-@keyframes animated_shadow {
-    from {box-shadow: none;}
-    to {box-shadow: 3px 3px 15px rgb(46, 46, 46);}
+.hero__button:active {
+    background-color: rgb(58, 58, 58);
+    box-shadow: 3px 3px 10px 0px black;
 }
