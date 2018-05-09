@@ -50,5 +50,6 @@ div[class^="col-"] {
     width: calc(100%/12 * 2);
 }
 .col-1 {
+    
     width: calc(100%/12);
 }
