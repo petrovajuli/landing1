@@ -1,0 +1,13 @@
+.stack img:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.stack_center {
+    margin: 0 30px;
+}
+
+.gallery__button-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
