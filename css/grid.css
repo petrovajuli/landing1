@@ -9,12 +9,12 @@
 .row {
     margin: 0 -15px;
     display: flex;
+    flex-wrap: wrap;
 }
 
-div[class^="col-"] {
+div[class*="col-"] {
     padding: 0 15px;
 }
-
 .col-12 {
     width: 100%;
 }
@@ -49,6 +49,5 @@ div[class^="col-"] {
     width: calc(100%/12 * 2);
 }
 .col-1 {
-    
     width: calc(100%/12);
 }

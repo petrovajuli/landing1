@@ -1,13 +1,6 @@
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 
 .card {
     height: 560px;
-   
     justify-content: space-between;
 }
 

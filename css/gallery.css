@@ -1,9 +1,9 @@
-.stack img:not(:last-child){
-    margin-bottom: 30px;
+.gallery__column img:not(:last-child){
+    margin-bottom: 28px;
 }
 
-.stack_center {
-    margin: 0 30px;
+.gallery__column img {
+    width: 100%;
 }
 
 .gallery__button-wrap {
