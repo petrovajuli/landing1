@@ -1,0 +1,50 @@
+.best-team {
+    background-color: #ffe1bd;
+    height: 780px;    
+}
+
+.member {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.member__avatar {
+    margin: 0 auto;
+    width: 168px;
+    height: 168px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.member__avatar img {
+    width: 100%;
+}
+
+.member__name {
+    position: relative;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.05;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.member__name:after {
+    content:  "";
+    position: absolute;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    width: 55px;
+    background-color: #000000;
+}
+
+.member__job {
+    font-size: 18px;
+    line-height: 1,05;
+}
