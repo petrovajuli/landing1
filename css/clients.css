@@ -1,0 +1,54 @@
+.clients__row {
+    margin-bottom: 78px;
+}
+
+.clients__person {
+    text-align:right;
+    vertical-align: top;
+}
+
+.person__name {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.7;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.person__name::after {
+    content:  "";
+    position: absolute;
+    height: 2px;
+    left: 100%;
+     transform: translate(-100%);
+    bottom: -25px;
+    width: 55px;
+    background-color: #000000;
+}
+
+.person__job {
+    font-size: 18px;
+}
+
+.clients__slider {
+    margin-bottom: 100px;
+}
+
+.clients__text {
+    font-size: 18px;
+    line-height: 1,5;
+}
+
+.slider__pic {
+    width: 256px;
+    height: 140px;
+}
+/*
+.slider__pic img {
+    width: 100%;
+}
+*/
+.clients__sliderv:not(:last-child) {
+    padding-right: 28px;
+}

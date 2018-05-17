@@ -1,6 +1,7 @@
 .best-team {
     background-color: #ffe1bd;
     height: 780px;    
+    margin-bottom: 10px;
 }
 
 .member {
@@ -30,7 +31,7 @@
     font-weight: bold;
     line-height: 1.05;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .member__name:after {
@@ -39,7 +40,7 @@
     height: 2px;
     left: 50%;
     transform: translate(-50%);
-    bottom: -12px;
+    bottom: -20px;
     width: 55px;
     background-color: #000000;
 }
