@@ -52,3 +52,8 @@
 .clients__sliderv:not(:last-child) {
     padding-right: 28px;
 }
+
+ul.slick-dots {
+    position: absolute;
+    bottom: 100px;
+}

@@ -1,0 +1,37 @@
+ul.slick-dots li button:before {
+    content: '';
+    font-family: inherit;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+ul.slick-dots li.slick-active button:before {
+    opacity: 1;
+    background-color: #000;
+}
+
+ul.slick-dots li button:hover:before {
+    background-color: rgb(104, 104, 104);
+}
+
+.best-team__slider .slick-prev:before,
+.best-team__slider .slick-next:before  {
+    font-family: "Font Awesome 5 Free";
+    font-size: 55px;
+}
+
+.best-team__slider .slick-prev:hover:before,
+.best-team__slider .slick-next:hover:before {
+    color: #000;
+}
+
+.best-team__slider .slick-prev:before {
+    content: '\f053';
+}
+
+.best-team__slider .slick-next:before {
+    content: '\f054';
+}
