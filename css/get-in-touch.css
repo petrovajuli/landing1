@@ -1,0 +1,45 @@
+.get-in-touch {
+    background-color: #000;
+    color: #fff;
+}
+
+.contacts__block {
+    display: flex;
+    margin-bottom: 46px;
+}
+
+.block_icon {
+    width: 18px;
+    height: 100%;
+    padding-top: 3px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.block_text {
+    font-size: 18px;
+}
+
+.block_social-icon {
+    text-decoration: none;
+    font-family: "Font Awesome 5 Brands";
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+    color: #000;
+    font-size: 26px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    line-height: 1;
+}
+/*
+.fb {
+    content: 'f39e';
+}
+
+.tw {
+    content: 'f099';
+}
+*/
