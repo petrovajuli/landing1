@@ -1,7 +1,7 @@
 .best-team {
     background-color: #ffe1bd;
-    height: 780px;    
-    
+   /* height: 780px; */   
+    padding-bottom: 150px;
 }
 
 .member {
@@ -50,7 +50,7 @@
     line-height: 1,05;
 }
 
-ul.slick-dots {
+.best-team ul.slick-dots {
     position: absolute;
     bottom: 100px;
 }

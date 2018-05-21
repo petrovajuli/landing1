@@ -1,3 +1,8 @@
+.clients {
+    padding-bottom: 50px;
+
+}
+
 .clients__row {
     margin-bottom: 78px;
 }
@@ -55,5 +60,5 @@
 
 ul.slick-dots {
     position: absolute;
-    bottom: 100px;
+    bottom: 0px;
 }
