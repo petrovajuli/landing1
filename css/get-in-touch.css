@@ -1,6 +1,7 @@
 .get-in-touch {
     background-color: #000;
     color: #fff;
+    padding-bottom: 100px;
 }
 
 .contacts__block {
@@ -33,6 +34,32 @@
     text-align: center;
     padding: 7px;
     line-height: 1;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field, .label {
+    background-color: #000;
+    color:rgba(255, 255, 255, 0.4);
+    font-size: 18px;
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-bottom: 40px;
+}
+
+.form-field__oneline {
+    height: 50px;
+}
+/*
+.form-field__textarea {
+    height: 100px;
 }
 /*
 .fb {

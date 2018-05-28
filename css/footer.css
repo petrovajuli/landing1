@@ -1,0 +1,24 @@
+.footer {
+    margin-top: 46px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.text_company {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.text_rights {
+    font-size: 14px;
+    font-weight: normal;
+    color: #656565;
+}
+
+.text_company, .text_rights {
+    text-align: center;
+}
