@@ -58,5 +58,18 @@
  
 .button_invert:active {
    box-shadow: 2px 2px 2px #d7d7d7;
- 
- 
+}
+
+.nav__link {
+    position: relative;
+}
+
+.link_active:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: #000000;
+    left: 15px;
+    top: 100%;
+    width: 40%;
+}

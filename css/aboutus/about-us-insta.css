@@ -1,0 +1,17 @@
+.insta-gallery__box {
+  padding-bottom: 100px;
+}
+
+.insta-gallery__line {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 46px;
+}
+
+ .insta-gallery__line2 {
+   justify-content: center;
+ }
+
