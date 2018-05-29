@@ -4,6 +4,12 @@
     position: relative;
  }
 
+.section_bordered {
+    padding-bottom: 100px;
+    border-top:  1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
 .section__title {
     font-size: 60px;
     margin-bottom: 100px;
