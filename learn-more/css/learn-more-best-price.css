@@ -1,0 +1,35 @@
+.best-price__box {
+  background-color: #000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+/*
+.best-price__box:not(:last-child){
+    margin-right: 30px;
+}
+*/
+.best-price__spacing {
+  margin-right: 50px;
+}
+
+.best-price__p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1;
+  color: #fff;
+}
+
+.best-price__s {
+  font-weight: bold;
+}
+
+.best-price__line {
+  background-color: #fff;
+  height: 2px;
+  width: 55px;
+}
