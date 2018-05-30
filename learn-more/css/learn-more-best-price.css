@@ -25,7 +25,12 @@
 }
 
 .best-price__s {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
   font-weight: bold;
+  line-height: 1;
+  color: #fff;
 }
 
 .best-price__line {
