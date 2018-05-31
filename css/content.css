@@ -14,14 +14,18 @@
 .card__header {
     margin:0;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 1;
     position: relative;
 }
 
 .card__header_s {
     font-size: 48px;
-    line-height: 60px;
+    line-height: 1.2;
     font-weight: 700;
+}
+
+.card__header_under {
+    font-size: 18px;
 }
 
 .card__header::after {

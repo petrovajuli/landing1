@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../css/common.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/gallery.css">
-  <link rel="stylesheet" href="./css/works-gallery.css">
+
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,700&amp;subset=cyrillic" rel="stylesheet">
 
@@ -51,7 +51,7 @@
 
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#">blog</a>
+                <a class="nav__link" href="../blog/blog.html">blog</a>
 
               </li>
               <li class="nav__item">
@@ -71,13 +71,16 @@
       <div class="container">
         <section class="section gallery">
           <h2 class="section__title">works</h2>
-          <div class="row works__gallery_filters">
-            all creative kitchen art installation print design
+          <div class="row section__filters">
+            <a class="filters_active filter-all" href="#">all</a>
+            <a class="filter-kitchen" href="#">creative kitchen</a>
+            <a class="filter-art" href="#">art installation</a>
+            <a class="filter-print" href="#">print design</a>
           </div>
 
           <div class="row gallery__box">
             <div class="gallery__column col-4">
-              <img src="http://placehold.it/365x365" alt="square">
+              <img  data-type="filter-kitchen" src="http://placehold.it/365x365" alt="square">
               <img src="http://placehold.it/365x590" alt="560x560">
             </div>
             <div class="gallery__column col-4">
@@ -121,5 +124,6 @@
       </p>
     </div>
   </main>
+  <script type="text/javascript" src="../js/gallery_filter.js"></script>
 </body>
 </html>
