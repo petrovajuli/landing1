@@ -1,3 +1,7 @@
+.gallery__box {
+    margin-bottom: 28px;
+}
+
 .gallery__column img:not(:last-child){
     margin-bottom: 28px;
 }
@@ -9,5 +13,6 @@
 .gallery__button-wrap {
   display: flex;
   justify-content: center;
-  padding: 50px 0;
+  padding-top: 22px;
+  padding-bottom: 50px;
 }
