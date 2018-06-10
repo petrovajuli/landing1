@@ -72,15 +72,15 @@
         <section class="section gallery">
           <h2 class="section__title">works</h2>
           <div class="row section__filters">
-            <a class="filters_active filter-all" href="#">all</a>
-            <a class="filter-kitchen" href="#">creative kitchen</a>
-            <a class="filter-art" href="#">art installation</a>
-            <a class="filter-print" href="#">print design</a>
+            <a data-group="all" class="filters_active" href="#">all</a>
+            <a data-group="kitchen" href="#">creative kitchen</a>
+            <a data-group="art" href="#">art installation</a>
+            <a data-group="print" href="#">print design</a>
           </div>
 
           <div class="row gallery__box">
             <div class="gallery__column col-4">
-              <img  data-type="filter-kitchen" src="http://placehold.it/365x365" alt="square">
+              <img  data-groups='["all","kitchen"]' src="http://placehold.it/365x365" alt="square">
               <img src="http://placehold.it/365x590" alt="560x560">
             </div>
             <div class="gallery__column col-4">
@@ -124,6 +124,8 @@
       </p>
     </div>
   </main>
-  <script type="text/javascript" src="../js/gallery_filter.js"></script>
+  <script type="text/javascript" src="../js/shuffle.js"></script>
+  <script type="text/javascript" src="../js/shuffle-filters.js"></script>
+
 </body>
 </html>
